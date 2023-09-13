@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3NcAQpPaJZGFID_i09VI1jZz3ENvMj1Q&libraries=places&callback=initialize"></script>-->
+    <title>Restaurant Finder</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Restaurant Finder</h1>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          id="locationInput"
+          class="form-control"
+          placeholder="Enter a location"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-primary" id="searchButton">Search</button>
+        </div>
+      </div>
+      <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
